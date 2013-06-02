@@ -1,0 +1,13 @@
+Money Tracker è una applicazione per tenere sotto controllo in un unico posto, le tue entrate e le tue uscite. 
+Facile da utilizzare, piacevole graficamente è interamente realizzata in tema Holo.
+
+Caratteristiche
+✔ Interfaccia Holo nativa
+✔ Facile da utilizzare
+✔ Statistiche
+✔ Operazioni ripetibili
+✔ Multi Profilo
+✔ Possibilità di eseguire Backup con Google Drive, Dropbox o localmente
+Google+ http://gplus.to/skilloverflow
+Twitter http://twitter.com/skilloverflow
+Facebook http://facebook.com/skilloverflow
