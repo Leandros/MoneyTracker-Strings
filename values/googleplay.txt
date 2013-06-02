@@ -14,3 +14,7 @@ Money Tracker is an app to track down all your income and expenses in one place,
 <b>Google+</b> http://gplus.to/skilloverflow
 <b>Twitter</b> http://twitter.com/skilloverflow
 <b>Facebook</b> http://facebook.com/skilloverflow
+
+
+
+Advertising text: Full-featured financial suite with a lightweight, native UI.
