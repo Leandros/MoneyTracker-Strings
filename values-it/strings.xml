@@ -164,7 +164,7 @@
     <string name="accountDeleted_undoBar">Profilo cancellato</string>
     <string name="categoryDeleted_crouton">Categoria cancellata</string>
     <string name="categoryDeleted_undoBar">Categoria cancellata</string>
-    <string name="searchHistoryCleared_crouton">Cronologie ricerche cancellata/string>
+    <string name="searchHistoryCleared_crouton">Cronologie ricerche cancellata</string>
     <string name="categoryError_crouton">Non è possibile cancellare tutte le categorie</string>
 
     <!-- Input Missing Errors -->
@@ -172,9 +172,9 @@
 
     <!-- Default Categorys -->
     <string-array name="default_categories">
-        <item>Generale<e/item>
+        <item>Generale</item>
         <item>Spese alimentari</item>
-        <item>Stipendio<item>
+        <item>Stipendio</item>
         <item>Bollette</item>
         <item>Trasporti</item>
         <item>Divertimenti</item>
@@ -325,8 +325,9 @@
 
     <!-- Showcase View Strings -->
     <string name="showcase_home_second_title">Navigazione</string>
-    <string name="showcase_home_second_text">Per navigare attraverso l'applicazione, clicca l'icona in alto a sinistra o fai scorrere il dito sul bordo di sinistra per aprire il menu
-    
+    <string name="showcase_home_second_text">Per navigare attraverso l'applicazione, clicca l'icona in alto a sinistra o fai scorrere il dito sul
+        bordo di sinistra per aprire il menu
+
     </string>
     <string name="showcase_accounts_first_title">Profili</string>
     <string name="showcase_accounts_first_text">Seleziona il profilo attivo</string>
@@ -340,8 +341,9 @@
     <string name="deleteAccount_title">Sei sicuro di cancellare il profilo?</string>
     <string name="deleteAccount_msg">Sono presenti alcune attività sul profilo e verranno cancellate. La cancellazione sarà definitiva.</string>
     <string name="deleteCategory_title">Sei sicuro di voler cancellare la categoria?</string>
-    <string name="deleteCategory_msg">Sono presenti alcune attività con la categoria selezionata e verranno cancellate, La cancellazione sarà definitiva.
-    
+    <string name="deleteCategory_msg">Sono presenti alcune attività con la categoria selezionata e verranno cancellate, La cancellazione sarà
+        definitiva.
+
     </string>
     <string name="delete_button">Elimina</string>
     <string name="cancel_button">Annulla</string>
@@ -359,7 +361,8 @@
     <string name="backup">Backup</string>
     <string name="backupName">Nome del Backup</string>
     <string name="selectBackup">Seleziona un Backup</string>
-    <string name="reset_DialogText">Questa operazione cancellerà tutte le voci (categorie e profili NON verranno cancellati). Vuoi continuare?</string>
+    <string name="reset_DialogText">Questa operazione cancellerà tutte le voci (categorie e profili NON verranno cancellati). Vuoi continuare?
+    </string>
 
     <!-- Backup Strings -->
     <string name="getFiles">Recupera i file</string>
