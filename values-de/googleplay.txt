@@ -18,4 +18,4 @@ Money Tracker ist eine App um jegliche Ein- und Ausgaben einfach an einem Platz 
 
 
 
-Advertising Text: Full-featured financial suite with a lightweight, native UI.
+Advertising Text: Finanzen Suite mit einem minimalistischen, nativen Ui.
