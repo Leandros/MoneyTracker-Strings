@@ -1,0 +1,16 @@
+Money Tracker ist eine App um jegliche Ein- und Ausgaben einfach an einem Platz einzusehen.
+
+
+<b>Features</b>
+✔ Holo UI
+✔ Einfach zu benutzen
+✔ Statistiken
+✔ Widerholende Einkommen / Ausgaben möglich
+✔ Multi Account
+✔ Backup zu Google Drive, Dropbox oder lokal
+
+
+
+<b>Google+</b> http://gplus.to/skilloverflow
+<b>Twitter</b> http://twitter.com/skilloverflow
+<b>Facebook</b> http://facebook.com/skilloverflow
