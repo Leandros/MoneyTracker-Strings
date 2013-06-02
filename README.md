@@ -12,4 +12,8 @@ Money Tracker strings for translation
 6. Create pull request and I'll accepp your translation
 
 
-All these things can be done in the GitHub web interface, you only need an account (which is free).
+All these things can be done in the GitHub web interface, you only need an account (which is free). To create folder,
+click create file, type folder name followed by '/' to go down into a subfolder.
+
+
+[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](https://play.google.com/store/apps/details?id=de.skilloverflow.moneytracker)
