@@ -78,7 +78,7 @@
 
     <!-- Preference Summary -->
     <string name="pref_hwAccel_summary">Turn hardware acceleration on</string>
-    <string name="pref_analytics_summary">Send anonymously usage data to improve Money Tracker</string>
+    <string name="pref_analytics_summary">Send anonymous usage data to improve Money Tracker</string>
 
     <!-- Hidden Prefs -->
     <string name="pref_enableNightlies_title">Enable Nigthly Builds through HockeyApp</string>
@@ -184,13 +184,13 @@
 
     <!--Default category descriptions -->
     <string-array name="default_category_descriptions">
-        <item>Everything which do not belong in another category</item>
+        <item>Anything that doesn\'t belong in another category</item>
         <item>An apple a day keeps the doctor away</item>
         <item>The money to live</item>
-        <item>The bills for the mansion on Ibiza or similar</item>
+        <item>The bills for the mansion in Ibiza or similar</item>
         <item>Gasoline, bills for public transport or similar</item>
         <item>Blu-Rays, DVD, or good old vinyl?</item>
-        <item>Everything medical, e.g going to the doctor</item>
+        <item>Anything medical, e.g going to the doctor</item>
         <item>Sport and more</item>
     </string-array>
 
@@ -338,10 +338,10 @@
 
     <!--Delete Dialog -->
     <string name="deleteAccount_title">Really Delete Account?</string>
-    <string name="deleteAccount_msg">There are still entries on the account, they will be deleted, too. Choose wisely, it\'s not revertible.</string>
+    <string name="deleteAccount_msg">There are still entries on the account, they will be deleted, too. Choose wisely, it cannot be undone.</string>
     <string name="deleteCategory_title">Really Delete Category?</string>
     <string name="deleteCategory_msg">There are still entries in the category, they will be deleted, too. Choose wisely,
-        it\'s not revertible.
+        it cannot be undone.
     </string>
     <string name="delete_button">Delete</string>
     <string name="cancel_button">Cancel</string>
