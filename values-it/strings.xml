@@ -41,7 +41,7 @@
     <string name="menu_search">Cerca</string>
     <string name="menu_add">Aggiungi</string>
     <string name="menu_issue">Segnala un problema</string>
-    <string name="menu_rate_app">Valuta l'app</string>
+    <string name="menu_rate_app">Valuta l\'app</string>
     <string name="menu_contact">Contatto</string>
     <string name="menu_settings">Impostazioni</string>
     <string name="menu_about">Informazioni</string>
@@ -73,12 +73,12 @@
     <string name="pref_restoreData_title">Restore dei dati</string>
     <string name="pref_resetData_title">Azzera i dati</string>
     <string name="pref_hwAccel_title">Accelerazione Hardware</string>
-    <string name="pref_disableAnalytics_title">Invia statistiche sull'utilizzo</string>
+    <string name="pref_disableAnalytics_title">Invia statistiche sull\'utilizzo</string>
     <string name="pref_clearSearchHistory">Pulisci cronologia ricerche</string>
 
     <!-- Preference Summary -->
     <string name="pref_hwAccel_summary">Attiva l\'accelerazione hardware</string>
-    <string name="pref_analytics_summary">Invia le statistiche sull'utilizzo in modalità anomina per migliorare Money Tracker</string>
+    <string name="pref_analytics_summary">Invia le statistiche sull\'utilizzo in modalità anomina per migliorare Money Tracker</string>
 
     <!-- Hidden Prefs -->
     <string name="pref_enableNightlies_title">Abilita i rilasci giornalieri attraverso HockeyApp</string>
@@ -237,7 +237,7 @@
     <string name="doneButtonText">Fatto</string>
     <string name="copyrightBy">© SkillOverflow</string>
     <string name="feedback">Feedback</string>
-    <string name="rateApp">Valuta l'applicazione</string>
+    <string name="rateApp">Valuta l\'applicazione</string>
     <string name="donate">Dona</string>
     <string name="followUs">Seguici</string>
     <string name="openSourceLibraries">Librerie open source utilizzate</string>
@@ -325,9 +325,8 @@
 
     <!-- Showcase View Strings -->
     <string name="showcase_home_second_title">Navigazione</string>
-    <string name="showcase_home_second_text">Per navigare attraverso l'applicazione, clicca l'icona in alto a sinistra o fai scorrere il dito sul
+    <string name="showcase_home_second_text">Per navigare attraverso l\'applicazione, clicca l\'icona in alto a sinistra o fai scorrere il dito sul
         bordo di sinistra per aprire il menu
-
     </string>
     <string name="showcase_accounts_first_title">Profili</string>
     <string name="showcase_accounts_first_text">Seleziona il profilo attivo</string>
