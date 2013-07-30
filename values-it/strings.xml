@@ -5,7 +5,6 @@
     <string name="app_name">Money Tracker</string>
     <string name="contentDescription">Immagine</string>
     <string name="error">Errore</string>
-    <string name="PayPalLink">http://donate.skilloverflow.de</string>
     <string name="nyi">La funzione non è ancora implementata</string>
 
     <!-- Alternative Ad -->
@@ -215,7 +214,6 @@
     <string name="apply">Applica</string>
     <string name="closeAndReset">Cancella</string>
     <string name="both">Entrambe</string>
-    <string name="income">Income</string>
     <string name="expense">Expense</string>
 
     <!-- Details Activity -->
@@ -225,7 +223,6 @@
     <string name="name">Nome</string>
     <string name="amount">Importo</string>
     <string name="description">Descrizione</string>
-    <string name="category">Categoria</string>
     <string name="date">Data</string>
     <string name="no_description">Nessuna descrizione disponibile</string>
     <string name="repeat_header">Ripeti</string>
@@ -391,6 +388,7 @@
         <item>Tutto</item>
         <item>Mensile</item>
         <item>Annuale</item>
+        <item>Categorie</item>
     </string-array>
 
     <!-- DashClock -->

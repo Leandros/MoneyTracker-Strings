@@ -4,8 +4,7 @@
     <!-- General App Related -->
     <string name="app_name">Money Tracker</string>
     <string name="contentDescription">Bild</string>
-    <string name="error">Error</string>
-    <string name="PayPalLink">http://spenden.skilloverflow.de</string>
+    <string name="error">Ups! Irgendetwas lief schief …</string>
     <string name="nyi">Noch nicht implementiert</string>
 
     <!-- Alternative Ad -->
@@ -25,6 +24,7 @@
     <string-array name="slidingmenu">
         <item>Home</item>
         <item>Statistiken</item>
+        <item>Kategorien Verteilung</item>
         <item>Konten</item>
         <item>Kategorien</item>
     </string-array>
@@ -32,6 +32,7 @@
     <!-- SlidingMenu Icon Array -->
     <string-array name="slidingmenu_icons">
         <item>@drawable/slidingmenu_home</item>
+        <item>@drawable/slidingmenu_statistics_graph</item>
         <item>@drawable/slidingmenu_statistics</item>
         <item>@drawable/slidingmenu_accounts</item>
         <item>@drawable/slidingmenu_categories</item>
@@ -44,6 +45,7 @@
     <string name="menu_rate_app">App Bewerten</string>
     <string name="menu_contact">Kontakt</string>
     <string name="menu_settings">Einstellungen</string>
+    <string name="menu_remove_ads">Entferne Werbung</string>
     <string name="menu_about">Über</string>
     <string name="menu_help">Hilfe</string>
     <string name="menu_filter">Filter</string>
@@ -68,6 +70,9 @@
     <string name="pref_header_privacy">Privatssphäre</string>
 
     <!-- Preference Title -->
+    <string name="pref_showColorsHome_title">Zeige Kategorie Farben an</string>
+    <string name="pref_showColorsHome_summary">Ob die Farben der Kategorien bei den Einträgen angezeigt werden soll</string>
+    <string name="pref_overrideCurrency_title">Überschreibe benutze Währung</string>
     <string name="pref_backupLocation">Sicherungsort</string>
     <string name="pref_backupData_title">Sicherung erstellen</string>
     <string name="pref_restoreData_title">Sicherung wiederherstellen</string>
@@ -82,6 +87,66 @@
 
     <!-- Hidden Prefs -->
     <string name="pref_enableNightlies_title">Aktiviere Nigthlies</string>
+
+    <!-- Currency Entries -->
+    <string name="defaultAsString">Standard</string>
+    <string-array name="pref_currencyEntries">
+        <item>Standard</item>
+        <item>EUR (€)</item>
+        <item>USD ($)</item>
+        <item>GBP (£)</item>
+        <item>INR (₹)</item>
+        <item>AUD ($)</item>
+        <item>CAD ($)</item>
+        <item>CHF</item>
+        <item>CNY (¥)</item>
+        <item>THB (฿)</item>
+        <item>JPY (¥)</item>
+        <item>NZD ($)</item>
+        <item>TRY</item>
+        <item>PHP (₱)</item>
+        <item>SGD ($)</item>
+        <item>ZAR (R)</item>
+        <item>SEK (kr)</item>
+        <item>HUF (Ft)</item>
+        <item>IDR (Rp)</item>
+        <item>BRL (R$)</item>
+        <item>NOK (kr)</item>
+        <item>DKK (kr)</item>
+        <item>RUB (руб)</item>
+        <item>KRW (₩)</item>
+        <item>EGP (£)</item>
+        <item>PLN (zł)</item>
+    </string-array>
+
+    <string-array name="pref_currencyValues">
+        <item>Default</item>
+        <item>de_DE</item>
+        <item>en_US</item>
+        <item>en_GB</item>
+        <item>en_IN</item>
+        <item>en_AU</item>
+        <item>en_CA</item>
+        <item>de_CH</item>
+        <item>zh_CN</item>
+        <item>th_TH</item>
+        <item>ja_JP</item>
+        <item>en_NZ</item>
+        <item>tr_TR</item>
+        <item>tl_PH</item>
+        <item>en_SG</item>
+        <item>en_ZA</item>
+        <item>sv_SE</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>pt_BR</item>
+        <item>nb_NO</item>
+        <item>da_DK</item>
+        <item>ru_RU</item>
+        <item>ko_KR</item>
+        <item>ar_EG</item>
+        <item>pl_PL</item>
+    </string-array>
 
     <!-- BackupLocation Entries -->
     <!-- Location:  (/sdcard/data/de.skilloverflow.moneytracker/backup/) -->
@@ -215,7 +280,6 @@
     <string name="apply">Anwenden</string>
     <string name="closeAndReset">Zurücksetzen</string>
     <string name="both">Beides</string>
-    <string name="income">Einkommen</string>
     <string name="expense">Ausgaben</string>
 
     <!-- Details Activity -->
@@ -225,7 +289,6 @@
     <string name="name">Name</string>
     <string name="amount">Preis</string>
     <string name="description">Beschreibung</string>
-    <string name="category">Kategorie</string>
     <string name="date">Datum</string>
     <string name="no_description">Keine Beschreibung vorhanden</string>
     <string name="repeat_header">Wiederholen</string>
