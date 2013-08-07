@@ -4,7 +4,7 @@
     <!-- General App Related -->
     <string name="app_name">Money Tracker</string>
     <string name="contentDescription">Immagine</string>
-    <string name="error">Errore</string>
+    <string name="error">Oops! Qualcosa non ha funzionato …</string>
     <string name="nyi">La funzione non è ancora implementata</string>
 
     <!-- Alternative Ad -->
@@ -17,13 +17,14 @@
 
     <!-- Changelog -->
     <string name="changelog_new">Nuovo:</string>
-    <string name="changelog_change">Modifiche:</string>
-    <string name="changelog_fix">Correzioni:</string>
+    <string name="changelog_change">Modifica:</string>
+    <string name="changelog_fix">Correzione:</string>
 
     <!-- SlidingMenu StringArray -->
     <string-array name="slidingmenu">
         <item>Home</item>
         <item>Statistiche</item>
+        <item>Distribuzione nelle categorie</item>
         <item>Profili</item>
         <item>Categorie</item>
     </string-array>
@@ -32,6 +33,7 @@
     <string-array name="slidingmenu_icons">
         <item>@drawable/slidingmenu_home</item>
         <item>@drawable/slidingmenu_statistics</item>
+        <item>@drawable/slidingmenu_statistics_graph</item>
         <item>@drawable/slidingmenu_accounts</item>
         <item>@drawable/slidingmenu_categories</item>
     </string-array>
@@ -43,6 +45,7 @@
     <string name="menu_rate_app">Valuta l\'app</string>
     <string name="menu_contact">Contatto</string>
     <string name="menu_settings">Impostazioni</string>
+    <string name="menu_remove_ads">Rimuovi la pubblicità</string>
     <string name="menu_about">Informazioni</string>
     <string name="menu_help">Aiuto</string>
     <string name="menu_filter">Filtra</string>
@@ -67,6 +70,9 @@
     <string name="pref_header_privacy">Privacy</string>
 
     <!-- Preference Title -->
+    <string name="pref_showColorsHome_title">Visualizza i colori delle categorie</string>
+	<string name="pref_showColorsHome_summary">Indica se visualizzare i colori delle categorie nelle liste</string>
+	<string name="pref_overrideCurrency_title">Sovrascrivi la valuta utilizzata</string>
     <string name="pref_backupLocation">Destinazione Backup</string>
     <string name="pref_backupData_title">Backup dei dati</string>
     <string name="pref_restoreData_title">Restore dei dati</string>
@@ -81,6 +87,66 @@
 
     <!-- Hidden Prefs -->
     <string name="pref_enableNightlies_title">Abilita i rilasci giornalieri attraverso HockeyApp</string>
+
+    <!-- Currency Entries -->
+    <string name="defaultAsString">Predefinito</string>
+    <string-array name="pref_currencyEntries">
+        <item>Predefinito</item>
+        <item>EUR (€)</item>
+        <item>USD ($)</item>
+        <item>GBP (£)</item>
+        <item>INR (₹)</item>
+        <item>AUD ($)</item>
+        <item>CAD ($)</item>
+        <item>CHF</item>
+        <item>CNY (¥)</item>
+        <item>THB (฿)</item>
+        <item>JPY (¥)</item>
+        <item>NZD ($)</item>
+        <item>TRY</item>
+        <item>PHP (₱)</item>
+        <item>SGD ($)</item>
+        <item>ZAR (R)</item>
+        <item>SEK (kr)</item>
+        <item>HUF (Ft)</item>
+        <item>IDR (Rp)</item>
+        <item>BRL (R$)</item>
+        <item>NOK (kr)</item>
+        <item>DKK (kr)</item>
+        <item>RUB (руб)</item>
+        <item>KRW (₩)</item>
+        <item>EGP (£)</item>
+        <item>PLN (zł)</item>
+    </string-array>
+
+    <string-array name="pref_currencyValues">
+        <item>Predefinito</item>
+        <item>de_DE</item>
+        <item>en_US</item>
+        <item>en_GB</item>
+        <item>en_IN</item>
+        <item>en_AU</item>
+        <item>en_CA</item>
+        <item>de_CH</item>
+        <item>zh_CN</item>
+        <item>th_TH</item>
+        <item>ja_JP</item>
+        <item>en_NZ</item>
+        <item>tr_TR</item>
+        <item>tl_PH</item>
+        <item>en_SG</item>
+        <item>en_ZA</item>
+        <item>sv_SE</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>pt_BR</item>
+        <item>nb_NO</item>
+        <item>da_DK</item>
+        <item>ru_RU</item>
+        <item>ko_KR</item>
+        <item>ar_EG</item>
+        <item>pl_PL</item>
+    </string-array>
 
     <!-- BackupLocation Entries -->
     <!-- Location:  (/sdcard/data/de.skilloverflow.moneytracker/backup/) -->
