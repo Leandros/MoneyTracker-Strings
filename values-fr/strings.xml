@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General App Related -->
+    <string name="app_name">Money Tracker</string>
+    <string name="contentDescription">Image</string>
+    <string name="error">Oops! Something went wrong …</string>
+    <string name="nyi">Not yet implemented</string>
+
+    <!-- Alternative Ad -->
+    <string name="alternative_ad_main">Upgrade to Pro</string>
+    <string name="alternative_ad_secondary">Support development and remove Ads!</string>
+
+    <!-- Crash Toast Strings -->
+    <string name="no_market">No valid Play Store installed.</string>
+    <string name="no_browser">No valid internet browser installed.</string>
+
+    <!-- Changelog -->
+    <string name="changelog_new">New:</string>
+    <string name="changelog_change">Change:</string>
+    <string name="changelog_fix">Bug Fix:</string>
+
+    <!-- SlidingMenu StringArray -->
+    <string-array name="slidingmenu">
+        <item>Home</item>
+        <item>Statistics</item>
+        <item>Category Distribution</item>
+        <item>Accounts</item>
+        <item>Categories</item>
+    </string-array>
+
+    <!-- SlidingMenu Icon Array -->
+    <string-array name="slidingmenu_icons">
+        <item>@drawable/slidingmenu_home</item>
+        <item>@drawable/slidingmenu_statistics_graph</item>
+        <item>@drawable/slidingmenu_statistics</item>
+        <item>@drawable/slidingmenu_accounts</item>
+        <item>@drawable/slidingmenu_categories</item>
+    </string-array>
+
+    <!-- MainActivity OverFlow Menu -->
+    <string name="menu_search">Search</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_issue">Report an issue</string>
+    <string name="menu_rate_app">Rate App</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_remove_ads">Remove Ads</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_discard">Delete</string>
+
+    <!-- ActionBar Title Strings -->
+    <string name="accounts">Accounts</string>
+    <string name="categories">Categories</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="category">Category</string>
+    <string name="settings_hidden">Hidden Settings</string>
+    <string name="search">Search</string>
+
+    <!-- Pref Header Strings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_backup">Backup and Import</string>
+    <string name="pref_header_advanced">Advanced</string>
+    <string name="pref_header_privacy">Privacy</string>
+
+    <!-- Preference Title -->
+    <string name="pref_showColorsHome_title">Show category colors</string>
+    <string name="pref_showColorsHome_summary">Whether to show category colors in entries in the entry section</string>
+    <string name="pref_overrideCurrency_title">Override used currency</string>
+    <string name="pref_backupLocation">Backup Location</string>
+    <string name="pref_backupData_title">Backup Data</string>
+    <string name="pref_restoreData_title">Restore Data</string>
+    <string name="pref_resetData_title">Reset Data</string>
+    <string name="pref_hwAccel_title">Hardware Acceleration</string>
+    <string name="pref_disableAnalytics_title">Send usage data</string>
+    <string name="pref_clearSearchHistory">Clear Search History</string>
+
+    <!-- Preference Summary -->
+    <string name="pref_hwAccel_summary">Turn hardware acceleration on</string>
+    <string name="pref_analytics_summary">Send anonymous usage data to improve Money Tracker</string>
+
+    <!-- Hidden Prefs -->
+    <string name="pref_enableNightlies_title">Enable Nigthly Builds through HockeyApp</string>
+
+    <!-- Currency Entries -->
+    <string name="defaultAsString">Default</string>
+    <string-array name="pref_currencyEntries">
+        <item>Default</item>
+        <item>EUR (€)</item>
+        <item>USD ($)</item>
+        <item>GBP (£)</item>
+        <item>INR (₹)</item>
+        <item>AUD ($)</item>
+        <item>CAD ($)</item>
+        <item>CHF</item>
+        <item>CNY (¥)</item>
+        <item>THB (฿)</item>
+        <item>JPY (¥)</item>
+        <item>NZD ($)</item>
+        <item>TRY</item>
+        <item>PHP (₱)</item>
+        <item>SGD ($)</item>
+        <item>ZAR (R)</item>
+        <item>SEK (kr)</item>
+        <item>HUF (Ft)</item>
+        <item>IDR (Rp)</item>
+        <item>BRL (R$)</item>
+        <item>NOK (kr)</item>
+        <item>DKK (kr)</item>
+        <item>RUB (руб)</item>
+        <item>KRW (₩)</item>
+        <item>EGP (£)</item>
+        <item>PLN (zł)</item>
+    </string-array>
+
+    <string-array name="pref_currencyValues">
+        <item>Default</item>
+        <item>de_DE</item>
+        <item>en_US</item>
+        <item>en_GB</item>
+        <item>en_IN</item>
+        <item>en_AU</item>
+        <item>en_CA</item>
+        <item>de_CH</item>
+        <item>zh_CN</item>
+        <item>th_TH</item>
+        <item>ja_JP</item>
+        <item>en_NZ</item>
+        <item>tr_TR</item>
+        <item>tl_PH</item>
+        <item>en_SG</item>
+        <item>en_ZA</item>
+        <item>sv_SE</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>pt_BR</item>
+        <item>nb_NO</item>
+        <item>da_DK</item>
+        <item>ru_RU</item>
+        <item>ko_KR</item>
+        <item>ar_EG</item>
+        <item>pl_PL</item>
+    </string-array>
+
+    <!-- BackupLocation Entries -->
+    <!-- Location:  (/sdcard/data/de.skilloverflow.moneytracker/backup/) -->
+    <string-array name="pref_backupLocationEntries">
+        <item>Google Drive</item>
+        <item>Dropbox</item>
+        <item>Internal Storage</item>
+    </string-array>
+
+    <!-- BackupLocation Entry Values -->
+    <string-array name="pref_backupLocationEntryValues">
+        <item>drive</item>
+        <item>dropbox</item>
+        <item>internal</item>
+    </string-array>
+
+    <!-- About ActionBar Tabs -->
+    <string name="about_tabtitle_about">About</string>
+    <string name="about_tabtitle_changelog">Changelog</string>
+
+    <!-- Send Mail Strings -->
+    <string name="sendmail_popup_text">Send mail with …</string>
+
+    <!-- Add Activity General Strings -->
+    <string name="done">Done</string>
+    <string name="discard">Discard</string>
+
+    <!-- Add Item Activity -->
+    <string name="entry_label_name">Entry Name</string>
+    <string name="entry_hint_name">e.g VW Beetle</string>
+    <string name="entry_label_description">Entry Description</string>
+    <string name="entry_hint_description">Optional</string>
+    <string name="entry_label_amount">Entry Amount</string>
+    <string name="entry_hint_amount">42.95</string>
+    <string name="entry_label_date">Entry Date</string>
+    <string name="entry_category_label">Category</string>
+    <string name="entry_income_or_expense_label">Income or Expense</string>
+    <string name="entry_repeating_label">Repeating</string>
+    <string name="income_radioButton">Income</string>
+    <string name="expense_radioButton">Expense</string>
+    <string name="dontRepeat_radioButton">Don\'t Repeat</string>
+    <string name="repeat_radioButton">Repeat</string>
+    <string name="repeatDescription">Repeat every</string>
+    <string name="repeatingDate_editTextText">1</string>
+    <string name="saveNewButton">Save and New</string>
+    <string name="amount_invalid">Please enter a valid amount (not 0)</string>
+
+    <!-- Repeat Spinner Arrays -->
+    <string-array name="repeatSpinner1_array">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+    </string-array>
+    <string-array name="repeatSpinner1_array_plural">
+        <item>days</item>
+        <item>weeks</item>
+        <item>months</item>
+        <item>years</item>
+    </string-array>
+
+    <!-- Category Add Activity -->
+    <string name="category_label_name">Category Name</string>
+    <string name="category_hint_name">e.g Salary</string>
+    <string name="category_label_description">Category Description</string>
+    <string name="category_hint_description">Optional</string>
+
+    <!-- Crouton Confirm Strings -->
+    <string name="entryAdded_crouton">Entry successfully added</string>
+    <string name="entryDeleted_crouton">Entry successfully deleted</string>
+    <string name="entryDeleted_undoBar">Entry deleted</string>
+    <string name="entryEdited_crouton">Entry successfully edited</string>
+    <string name="accountAdded_crouton">Account successfully added</string>
+    <string name="categoryAdded_crouton">Category successfully added</string>
+    <string name="accountEdited_crouton">Account successfully edited</string>
+    <string name="categoryEdited_crouton">Category successfully edited</string>
+    <string name="accountSelected_crouton">Account successfully selected</string>
+    <string name="accountIsSelected_crouton">Cannot delete the current selected account</string>
+    <string name="accountDeleted_crouton">Account successfully deleted</string>
+    <string name="accountDeleted_undoBar">Account deleted</string>
+    <string name="categoryDeleted_crouton">Category successfully deleted</string>
+    <string name="categoryDeleted_undoBar">Category deleted</string>
+    <string name="searchHistoryCleared_crouton">Search history successfully cleared</string>
+    <string name="categoryError_crouton">Cannot delete all categories</string>
+
+    <!-- Input Missing Errors -->
+    <string name="name_missing">Please enter a name</string>
+
+    <!-- Default Categorys -->
+    <string-array name="default_categories">
+        <item>General</item>
+        <item>Groceries</item>
+        <item>Salary</item>
+        <item>Household Bills</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Medical</item>
+        <item>Sport</item>
+    </string-array>
+
+    <!--Default category descriptions -->
+    <string-array name="default_category_descriptions">
+        <item>Anything that doesn\'t belong in another category</item>
+        <item>An apple a day keeps the doctor away</item>
+        <item>The money to live</item>
+        <item>The bills for the mansion in Ibiza or similar</item>
+        <item>Gasoline, bills for public transport or similar</item>
+        <item>Blu-Rays, DVD, or good old vinyl?</item>
+        <item>Anything medical, e.g going to the doctor</item>
+        <item>Sport and more</item>
+    </string-array>
+
+    <!-- Add new Category Array for Spinner -->
+    <string-array name="add_new_category_array">
+        <item>Add new category</item>
+    </string-array>
+    <string-array name="all_categories_array">
+        <item>All</item>
+    </string-array>
+
+    <!-- Add account Strings -->
+    <string name="account_label_name">Account Name</string>
+    <string name="account_label_description">Account Description</string>
+    <string name="account_wizard_label_name">Name</string>
+    <string name="account_hint_name">e.g. Main</string>
+    <string name="account_wizard_label_description">Description</string>
+    <string name="account_hint_description">Optional</string>
+
+    <!-- Filter Dialog -->
+    <string name="filter">Filter</string>
+    <string name="apply">Apply</string>
+    <string name="closeAndReset">Reset</string>
+    <string name="both">Both</string>
+    <string name="expense">Expense</string>
+
+    <!-- Details Activity -->
+    <string name="entry_details">Entry Details</string>
+    <string name="category_details">Category Details</string>
+    <string name="account_details">Account Details</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="no_description">No description available</string>
+    <string name="repeat_header">Repeat</string>
+    <string name="repeat_out_singular">Repeat every day</string>
+    <string name="repeat_out_plural">Repeat every %1$s days</string>
+    <string name="no_entry_selected">No entry selected</string>
+
+    <!-- About -->
+    <string name="doneButtonText">Done</string>
+    <string name="copyrightBy">© SkillOverflow</string>
+    <string name="feedback">Feedback</string>
+    <string name="rateApp">Rate application</string>
+    <string name="donate">Donate</string>
+    <string name="followUs">Follow us</string>
+    <string name="openSourceLibraries">Used Open Source libraries</string>
+    <string name="seeOpenSourceLibs">Open Source Libraries and Licenses</string>
+
+    <!-- Libraries -->
+    <string name="libraries">Libraries</string>
+    <string name="abs">
+        <b>Jake Wharton: ActionBarSherlock</b>
+    </string>
+    <string name="crouton">
+        <b>Benjamin Weiss: Crouton</b>
+    </string>
+    <string name="vpi">
+        <b>Jake Wharton: ViewPagerIndicator</b>
+    </string>
+    <string name="showcase">
+        <b>Alex Curran: ShowcaseView</b>
+    </string>
+    <string name="upref">
+        <b>Joel Pedraza: UnifiedPreferences</b>
+    </string>
+    <string name="slidingMenu">
+        <b>Jeremy Feinstein: SlidingMenu</b>
+    </string>
+    <string name="acra">
+        <b>Kevin Gaudin: ACRA</b>
+    </string>
+    <string name="romannurik">
+        <b>Roman Nurik: Wizard</b>
+    </string>
+    <string name="cwacMerge">
+        <b>Mark Murphy: MergeAdapter</b>
+    </string>
+    <string name="nineoldandroids">
+        <b>Jake Wharton: NineOldAndroids</b>
+    </string>
+    <string name="eventbus">
+        <b>Markus Junginger: EventBus</b>
+    </string>
+    <string name="paneslibrary">
+        <b>Kenrick Rilee: PanesLibrary</b>
+    </string>
+    <string name="androidlib">
+        <b>Google: Android</b>
+    </string>
+    <string name="universalimageloader">
+        <b>Sergey Tarasevich: Universal Image Loader</b>
+    </string>
+    <string-array name="license_headers">
+        <item>Copyright 2012 Jake Wharton</item>
+        <item>Copyright 2012 Neofonie Mobile GmbH\nCopyright 2012 – 2013 Benjamin Weiss</item>
+        <item>Copyright 2012 Jake Wharton</item>
+        <item>Copyright 2012 Alex Curran</item>
+        <item>Copyright 2012 Joel Pedraza</item>
+        <item>Copyright 2012 Jeremy Feinstein</item>
+        <item>Copyright 2010 Emmanuel Astier\nCopyright 2010 Kevin Gaudin</item>
+        <item>Copyright 2012 Roman Nurik</item>
+        <item>Copyright 2012 Mark Murphy</item>
+        <item>Copyright 2012 Jake Wharton</item>
+        <item>Copyright 2012 Markus Junginger, greenrobot (http://greenrobot.de)</item>
+        <item>Copyright 2013 Kenrick Rilee</item>
+        <item>Copyright 2006 The Android Open Source Project</item>
+        <item>Copyright 2011-2013 Sergey Tarasevich</item>
+    </string-array>
+    <string name="apache_license">\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in
+        compliance with the License. You may obtain a copy of the License at\n\n\thttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by
+        applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+        CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations
+        under the License.
+    </string>
+
+    <!-- Wizard strings -->
+    <string name="prev">Previous</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="review">Review</string>
+
+    <!-- Wizard Pages Title -->
+    <string name="wizard_title_account">Account</string>
+
+    <!-- Review Wizard Strings -->
+    <string name="reviewAccountName">Your account name:</string>
+    <string name="reviewAccountDescription">Your account description:</string>
+
+    <!-- Showcase View Strings -->
+    <string name="showcase_home_second_title">Navigation</string>
+    <string name="showcase_home_second_text">If you want to navigate through the app, slide from the left bezel or click on the icon to open the left
+        menu
+    </string>
+    <string name="showcase_accounts_first_title">Accounts</string>
+    <string name="showcase_accounts_first_text">Clicking on an account will make this the active account for the whole app</string>
+
+    <!-- Default Strings -->
+    <string name="empty_default_description">
+        <i>No Description</i>
+    </string>
+
+    <!--Delete Dialog -->
+    <string name="deleteAccount_title">Really Delete Account?</string>
+    <string name="deleteAccount_msg">There are still entries on the account, they will be deleted, too. Choose wisely, it cannot be undone.</string>
+    <string name="deleteCategory_title">Really Delete Category?</string>
+    <string name="deleteCategory_msg">There are still entries in the category, they will be deleted, too. Choose wisely,
+        it cannot be undone.
+    </string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="donotshowagain_button">Delete and don\'t show again</string>
+
+    <!--Different Strings -->
+    <string name="selected">Selected</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="threemore">Three clicks to go</string>
+    <string name="noentries">No Entries</string>
+
+    <!-- Import / Export Dialog -->
+    <string name="areyousure">Are you sure?</string>
+    <string name="backup">Backup</string>
+    <string name="backupName">Name of Backup</string>
+    <string name="selectBackup">Select Backup</string>
+    <string name="reset_DialogText">This will erase all your entries (categories and account won\'t be touched). Do you want to proceed?</string>
+
+    <!-- Backup Strings -->
+    <string name="getFiles">Retrieve Files</string>
+    <string name="exportDatabase">Exporting database …</string>
+    <string name="exportSuccessful">Export successful</string>
+    <string name="exportFailed">Export failed</string>
+    <string name="importDatabase">Importing database …</string>
+    <string name="importSuccessful">Import successful</string>
+    <string name="importFailed">Import failed</string>
+    <string name="resetSuccessful">Reset successful</string>
+    <string name="no_backups">No backups found</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search entries</string>
+
+    <!-- Filter -->
+    <string name="filter_by_art_label">by income or expense</string>
+    <string name="filter_first_date">First date for filtering</string>
+    <string name="filter_last_date">Last date for filtering</string>
+    <string name="filter_by_category">by category</string>
+
+    <!-- Statistics -->
+    <string name="statistics_empty">For statistics, you need at least one entry</string>
+
+    <!-- ActionBar Spinner Arrays -->
+    <string-array name="ab_spinner">
+        <item>All</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <!-- DashClock -->
+    <string name="dashclock_desc">Money Tracker DashClock Extension</string>
+    <string name="dashclock_settings_label">Money Tracker DashClock Settings</string>
+
+    <!-- Drawer Strings -->
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_close">Drawer closed</string>
+
+</resources>
