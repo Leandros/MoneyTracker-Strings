@@ -4,29 +4,29 @@
     <!-- General App Related -->
     <string name="app_name">Money Tracker</string>
     <string name="contentDescription">Image</string>
-    <string name="error">Oops! Something went wrong …</string>
-    <string name="nyi">Not yet implemented</string>
+    <string name="error">Oups! Une erreur est survenue...</string>
+    <string name="nyi">Pas encore implémentée</string>
 
     <!-- Alternative Ad -->
-    <string name="alternative_ad_main">Upgrade to Pro</string>
-    <string name="alternative_ad_secondary">Support development and remove Ads!</string>
+    <string name="alternative_ad_main">Mettre à jour vers la version Pro</string>
+    <string name="alternative_ad_secondary">Soutenir le développement et supprimer les pubs!</string>
 
     <!-- Crash Toast Strings -->
-    <string name="no_market">No valid Play Store installed.</string>
-    <string name="no_browser">No valid internet browser installed.</string>
+    <string name="no_market">Aucun Play Store valide installé.</string>
+    <string name="no_browser">Aucun navigateur valide installé.</string>
 
     <!-- Changelog -->
-    <string name="changelog_new">New:</string>
-    <string name="changelog_change">Change:</string>
-    <string name="changelog_fix">Bug Fix:</string>
+    <string name="changelog_new">Nouveau:</string>
+    <string name="changelog_change">Changement:</string>
+    <string name="changelog_fix">Corrections de bugs:</string>
 
     <!-- SlidingMenu StringArray -->
     <string-array name="slidingmenu">
-        <item>Home</item>
-        <item>Statistics</item>
-        <item>Category Distribution</item>
-        <item>Accounts</item>
-        <item>Categories</item>
+        <item>Accueil</item>
+        <item>Statistiques</item>
+        <item>Répartition par catégories</item>
+        <item>Comptes</item>
+        <item>Catégories</item>
     </string-array>
 
     <!-- SlidingMenu Icon Array -->
@@ -39,59 +39,59 @@
     </string-array>
 
     <!-- MainActivity OverFlow Menu -->
-    <string name="menu_search">Search</string>
-    <string name="menu_add">Add</string>
-    <string name="menu_issue">Report an issue</string>
-    <string name="menu_rate_app">Rate App</string>
+    <string name="menu_search">Rechercher</string>
+    <string name="menu_add">Ajouter</string>
+    <string name="menu_issue">Signaler un problème</string>
+    <string name="menu_rate_app">Noter l'application</string>
     <string name="menu_contact">Contact</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_remove_ads">Remove Ads</string>
-    <string name="menu_about">About</string>
-    <string name="menu_help">Help</string>
-    <string name="menu_filter">Filter</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_discard">Delete</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_remove_ads">Retirer les pubs</string>
+    <string name="menu_about">A propos</string>
+    <string name="menu_help">Aide</string>
+    <string name="menu_filter">Filtrer</string>
+    <string name="menu_edit">Modifier</string>
+    <string name="menu_discard">Supprimer</string>
 
     <!-- ActionBar Title Strings -->
-    <string name="accounts">Accounts</string>
-    <string name="categories">Categories</string>
-    <string name="income">Income</string>
-    <string name="expenses">Expenses</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
-    <string name="category">Category</string>
-    <string name="settings_hidden">Hidden Settings</string>
-    <string name="search">Search</string>
+    <string name="accounts">Comptes</string>
+    <string name="categories">Catégories</string>
+    <string name="income">Revenus</string>
+    <string name="expenses">Dépenses</string>
+    <string name="settings">Paramètres</string>
+    <string name="about">A propos</string>
+    <string name="category">Catégories</string>
+    <string name="settings_hidden">Paramètres cachés</string>
+    <string name="search">Recherche</string>
 
     <!-- Pref Header Strings -->
-    <string name="pref_header_general">General</string>
-    <string name="pref_header_backup">Backup and Import</string>
-    <string name="pref_header_advanced">Advanced</string>
-    <string name="pref_header_privacy">Privacy</string>
+    <string name="pref_header_general">Général</string>
+    <string name="pref_header_backup">Sauvegarde et Import</string>
+    <string name="pref_header_advanced">Réglages avancés</string>
+    <string name="pref_header_privacy">Confidentialité</string>
 
     <!-- Preference Title -->
-    <string name="pref_showColorsHome_title">Show category colors</string>
-    <string name="pref_showColorsHome_summary">Whether to show category colors in entries in the entry section</string>
-    <string name="pref_overrideCurrency_title">Override used currency</string>
-    <string name="pref_backupLocation">Backup Location</string>
-    <string name="pref_backupData_title">Backup Data</string>
-    <string name="pref_restoreData_title">Restore Data</string>
-    <string name="pref_resetData_title">Reset Data</string>
-    <string name="pref_hwAccel_title">Hardware Acceleration</string>
-    <string name="pref_disableAnalytics_title">Send usage data</string>
-    <string name="pref_clearSearchHistory">Clear Search History</string>
+    <string name="pref_showColorsHome_title">Afficher les couleurs des catégories</string>
+    <string name="pref_showColorsHome_summary">Afficher ou non les couleurs des catégories dans les entrées</string>
+    <string name="pref_overrideCurrency_title">Écraser la devise utilisée</string>
+    <string name="pref_backupLocation">Sauvegarder la position</string>
+    <string name="pref_backupData_title">Sauvegarder les données</string>
+    <string name="pref_restoreData_title">Restaurer les données</string>
+    <string name="pref_resetData_title">Réinitialiser les données</string>
+    <string name="pref_hwAccel_title">Accélération matérielle</string>
+    <string name="pref_disableAnalytics_title">Envoyer les rapports d'usage</string>
+    <string name="pref_clearSearchHistory">Effacer l'historique de recherche</string>
 
     <!-- Preference Summary -->
-    <string name="pref_hwAccel_summary">Turn hardware acceleration on</string>
-    <string name="pref_analytics_summary">Send anonymous usage data to improve Money Tracker</string>
+    <string name="pref_hwAccel_summary">Activer l'accélération matérielle</string>
+    <string name="pref_analytics_summary">Envoyer des rapports d'usage anonymes pour améliorer Money Tracker</string>
 
     <!-- Hidden Prefs -->
-    <string name="pref_enableNightlies_title">Enable Nigthly Builds through HockeyApp</string>
+    <string name="pref_enableNightlies_title">Activer les Nigthly Builds via HockeyApp</string>
 
     <!-- Currency Entries -->
-    <string name="defaultAsString">Default</string>
+    <string name="defaultAsString">Défaut</string>
     <string-array name="pref_currencyEntries">
-        <item>Default</item>
+        <item>Défaut</item>
         <item>EUR (€)</item>
         <item>USD ($)</item>
         <item>GBP (£)</item>
@@ -120,7 +120,7 @@
     </string-array>
 
     <string-array name="pref_currencyValues">
-        <item>Default</item>
+        <item>Défaut</item>
         <item>de_DE</item>
         <item>en_US</item>
         <item>en_GB</item>
@@ -153,7 +153,7 @@
     <string-array name="pref_backupLocationEntries">
         <item>Google Drive</item>
         <item>Dropbox</item>
-        <item>Internal Storage</item>
+        <item>Stockage interne</item>
     </string-array>
 
     <!-- BackupLocation Entry Values -->
@@ -168,146 +168,146 @@
     <string name="about_tabtitle_changelog">Changelog</string>
 
     <!-- Send Mail Strings -->
-    <string name="sendmail_popup_text">Send mail with …</string>
+    <string name="sendmail_popup_text">Envoyer e-mail avec …</string>
 
     <!-- Add Activity General Strings -->
-    <string name="done">Done</string>
-    <string name="discard">Discard</string>
+    <string name="done">Terminer</string>
+    <string name="discard">Annuler</string>
 
     <!-- Add Item Activity -->
-    <string name="entry_label_name">Entry Name</string>
-    <string name="entry_hint_name">e.g VW Beetle</string>
-    <string name="entry_label_description">Entry Description</string>
-    <string name="entry_hint_description">Optional</string>
-    <string name="entry_label_amount">Entry Amount</string>
+    <string name="entry_label_name">Nom de l'entrée</string>
+    <string name="entry_hint_name">par ex.: VW Beetle</string>
+    <string name="entry_label_description">Description de l'entrée</string>
+    <string name="entry_hint_description">Optionel</string>
+    <string name="entry_label_amount">Montant de l'entrée</string>
     <string name="entry_hint_amount">42.95</string>
-    <string name="entry_label_date">Entry Date</string>
-    <string name="entry_category_label">Category</string>
-    <string name="entry_income_or_expense_label">Income or Expense</string>
-    <string name="entry_repeating_label">Repeating</string>
-    <string name="income_radioButton">Income</string>
-    <string name="expense_radioButton">Expense</string>
-    <string name="dontRepeat_radioButton">Don\'t Repeat</string>
-    <string name="repeat_radioButton">Repeat</string>
-    <string name="repeatDescription">Repeat every</string>
+    <string name="entry_label_date">Date de l'entrée</string>
+    <string name="entry_category_label">Catégorie</string>
+    <string name="entry_income_or_expense_label">Revenu ou Dépense</string>
+    <string name="entry_repeating_label">Répétition</string>
+    <string name="income_radioButton">Revenu</string>
+    <string name="expense_radioButton">Dépense</string>
+    <string name="dontRepeat_radioButton">Ne pas répéter</string>
+    <string name="repeat_radioButton">Répéter</string>
+    <string name="repeatDescription">Répéter tous les</string>
     <string name="repeatingDate_editTextText">1</string>
-    <string name="saveNewButton">Save and New</string>
-    <string name="amount_invalid">Please enter a valid amount (not 0)</string>
+    <string name="saveNewButton">Sauvegarder et Nouveau</string>
+    <string name="amount_invalid">Veuillez entrer un montant valide (non nul)</string>
 
     <!-- Repeat Spinner Arrays -->
     <string-array name="repeatSpinner1_array">
-        <item>day</item>
-        <item>week</item>
-        <item>month</item>
-        <item>year</item>
+        <item>jour</item>
+        <item>semaine</item>
+        <item>mois</item>
+        <item>année</item>
     </string-array>
     <string-array name="repeatSpinner1_array_plural">
-        <item>days</item>
-        <item>weeks</item>
-        <item>months</item>
-        <item>years</item>
+        <item>jours</item>
+        <item>semaines</item>
+        <item>mois</item>
+        <item>années</item>
     </string-array>
 
     <!-- Category Add Activity -->
-    <string name="category_label_name">Category Name</string>
-    <string name="category_hint_name">e.g Salary</string>
-    <string name="category_label_description">Category Description</string>
-    <string name="category_hint_description">Optional</string>
+    <string name="category_label_name">Nom de catégorie</string>
+    <string name="category_hint_name">par ex.: Salaire</string>
+    <string name="category_label_description">Description de la catégorie</string>
+    <string name="category_hint_description">Optionel</string>
 
     <!-- Crouton Confirm Strings -->
-    <string name="entryAdded_crouton">Entry successfully added</string>
-    <string name="entryDeleted_crouton">Entry successfully deleted</string>
-    <string name="entryDeleted_undoBar">Entry deleted</string>
-    <string name="entryEdited_crouton">Entry successfully edited</string>
-    <string name="accountAdded_crouton">Account successfully added</string>
-    <string name="categoryAdded_crouton">Category successfully added</string>
-    <string name="accountEdited_crouton">Account successfully edited</string>
-    <string name="categoryEdited_crouton">Category successfully edited</string>
-    <string name="accountSelected_crouton">Account successfully selected</string>
-    <string name="accountIsSelected_crouton">Cannot delete the current selected account</string>
-    <string name="accountDeleted_crouton">Account successfully deleted</string>
-    <string name="accountDeleted_undoBar">Account deleted</string>
-    <string name="categoryDeleted_crouton">Category successfully deleted</string>
-    <string name="categoryDeleted_undoBar">Category deleted</string>
-    <string name="searchHistoryCleared_crouton">Search history successfully cleared</string>
-    <string name="categoryError_crouton">Cannot delete all categories</string>
+    <string name="entryAdded_crouton">Entrée ajoutée avec succès</string>
+    <string name="entryDeleted_crouton">Entrée supprimée avec succès</string>
+    <string name="entryDeleted_undoBar">Entrée supprimée</string>
+    <string name="entryEdited_crouton">Entrée éditée avec succès</string>
+    <string name="accountAdded_crouton">Compte ajouté avec succès</string>
+    <string name="categoryAdded_crouton">Catégorie ajoutée avec succès</string>
+    <string name="accountEdited_crouton">Compte modifié avec succès</string>
+    <string name="categoryEdited_crouton">Catégorie éditée avec succès</string>
+    <string name="accountSelected_crouton">Compte sélectionné avec succès</string>
+    <string name="accountIsSelected_crouton">Impossible de supprimer le compte sélectionné</string>
+    <string name="accountDeleted_crouton">Compte supprimé avec succès</string>
+    <string name="accountDeleted_undoBar">Compte supprimé</string>
+    <string name="categoryDeleted_crouton">Catégorie supprimée avec succès</string>
+    <string name="categoryDeleted_undoBar">Categorie supprimée</string>
+    <string name="searchHistoryCleared_crouton">Historique de recherche supprimé avec succès</string>
+    <string name="categoryError_crouton">Impossible de supprimer toutes les catégories</string>
 
     <!-- Input Missing Errors -->
-    <string name="name_missing">Please enter a name</string>
+    <string name="name_missing">Veuillez entrer un nom</string>
 
     <!-- Default Categorys -->
     <string-array name="default_categories">
-        <item>General</item>
-        <item>Groceries</item>
-        <item>Salary</item>
-        <item>Household Bills</item>
+        <item>Général</item>
+        <item>Courses</item>
+        <item>Salaire</item>
+        <item>Dépenses domestiques</item>
         <item>Transport</item>
-        <item>Entertainment</item>
-        <item>Medical</item>
+        <item>Loisirs</item>
+        <item>Santé</item>
         <item>Sport</item>
     </string-array>
 
     <!--Default category descriptions -->
     <string-array name="default_category_descriptions">
-        <item>Anything that doesn\'t belong in another category</item>
-        <item>An apple a day keeps the doctor away</item>
-        <item>The money to live</item>
-        <item>The bills for the mansion in Ibiza or similar</item>
-        <item>Gasoline, bills for public transport or similar</item>
-        <item>Blu-Rays, DVD, or good old vinyl?</item>
-        <item>Anything medical, e.g going to the doctor</item>
-        <item>Sport and more</item>
+        <item>Tout ce qui ne rentre pas dans une autre catégorieA</item>
+        <item>Une pomme chaque matin éloigne le médecin</item>
+        <item>L'argent pour vivre</item>
+        <item>Les factures pour la résidence à Ibiza et autres</item>
+        <item>Essence, factures pour transports publics et autres</item>
+        <item>Blu-Rays, DVD, ou de bons vieux vinyls?</item>
+        <item>Relatif à la santé, par exemple aller chez le médecin</item>
+        <item>Sport et plus</item>
     </string-array>
 
     <!-- Add new Category Array for Spinner -->
     <string-array name="add_new_category_array">
-        <item>Add new category</item>
+        <item>Ajouter nouvelle catégorie</item>
     </string-array>
     <string-array name="all_categories_array">
-        <item>All</item>
+        <item>Toutes</item>
     </string-array>
 
     <!-- Add account Strings -->
-    <string name="account_label_name">Account Name</string>
-    <string name="account_label_description">Account Description</string>
-    <string name="account_wizard_label_name">Name</string>
-    <string name="account_hint_name">e.g. Main</string>
+    <string name="account_label_name">Nom de compte</string>
+    <string name="account_label_description">Description du compte</string>
+    <string name="account_wizard_label_name">Nom</string>
+    <string name="account_hint_name">par ex.:Général</string>
     <string name="account_wizard_label_description">Description</string>
-    <string name="account_hint_description">Optional</string>
+    <string name="account_hint_description">Optionel</string>
 
     <!-- Filter Dialog -->
-    <string name="filter">Filter</string>
-    <string name="apply">Apply</string>
-    <string name="closeAndReset">Reset</string>
-    <string name="both">Both</string>
-    <string name="expense">Expense</string>
+    <string name="filter">Filtrer</string>
+    <string name="apply">Appliquer</string>
+    <string name="closeAndReset">Réinitialiser</string>
+    <string name="both">Les deux</string>
+    <string name="expense">Dépense</string>
 
     <!-- Details Activity -->
-    <string name="entry_details">Entry Details</string>
-    <string name="category_details">Category Details</string>
-    <string name="account_details">Account Details</string>
-    <string name="name">Name</string>
-    <string name="amount">Amount</string>
+    <string name="entry_details">Détails des entrées</string>
+    <string name="category_details">Détails des catégories</string>
+    <string name="account_details">Détails des comptes</string>
+    <string name="name">Nom</string>
+    <string name="amount">Montant</string>
     <string name="description">Description</string>
     <string name="date">Date</string>
-    <string name="no_description">No description available</string>
-    <string name="repeat_header">Repeat</string>
-    <string name="repeat_out_singular">Repeat every day</string>
-    <string name="repeat_out_plural">Repeat every %1$s days</string>
-    <string name="no_entry_selected">No entry selected</string>
+    <string name="no_description">Pas de description disponible</string>
+    <string name="repeat_header">Répétition</string>
+    <string name="repeat_out_singular">Répéter chaque jour</string>
+    <string name="repeat_out_plural">Répéter tous les %1$s jours</string>
+    <string name="no_entry_selected">Pas d'entrée sélectionnée</string>
 
     <!-- About -->
-    <string name="doneButtonText">Done</string>
+    <string name="doneButtonText">Terminer</string>
     <string name="copyrightBy">© SkillOverflow</string>
     <string name="feedback">Feedback</string>
-    <string name="rateApp">Rate application</string>
-    <string name="donate">Donate</string>
-    <string name="followUs">Follow us</string>
-    <string name="openSourceLibraries">Used Open Source libraries</string>
-    <string name="seeOpenSourceLibs">Open Source Libraries and Licenses</string>
+    <string name="rateApp">Noter l'application</string>
+    <string name="donate">Faire une donation</string>
+    <string name="followUs">Nous suivre</string>
+    <string name="openSourceLibraries">Librairies Open Source utilisées</string>
+    <string name="seeOpenSourceLibs">Libraries Open Source et licences</string>
 
     <!-- Libraries -->
-    <string name="libraries">Libraries</string>
+    <string name="libraries">Librairies</string>
     <string name="abs">
         <b>Jake Wharton: ActionBarSherlock</b>
     </string>
@@ -374,92 +374,88 @@
     </string>
 
     <!-- Wizard strings -->
-    <string name="prev">Previous</string>
-    <string name="next">Next</string>
-    <string name="finish">Finish</string>
-    <string name="review">Review</string>
+    <string name="prev">Précédent</string>
+    <string name="next">Suivant</string>
+    <string name="finish">Terminer</string>
+    <string name="review">Vérifier</string>
 
     <!-- Wizard Pages Title -->
-    <string name="wizard_title_account">Account</string>
+    <string name="wizard_title_account">Compte</string>
 
     <!-- Review Wizard Strings -->
-    <string name="reviewAccountName">Your account name:</string>
-    <string name="reviewAccountDescription">Your account description:</string>
+    <string name="reviewAccountName">Votre nom de compte:</string>
+    <string name="reviewAccountDescription">Votre description du compte:</string>
 
     <!-- Showcase View Strings -->
     <string name="showcase_home_second_title">Navigation</string>
-    <string name="showcase_home_second_text">If you want to navigate through the app, slide from the left bezel or click on the icon to open the left
-        menu
-    </string>
-    <string name="showcase_accounts_first_title">Accounts</string>
-    <string name="showcase_accounts_first_text">Clicking on an account will make this the active account for the whole app</string>
+    <string name="showcase_home_second_text">Pour naviguer dans l'application, faites glisser depuis le bord gauche ou cliquez sur l'icône pour ouvrir le menu de gauche</string>
+    <string name="showcase_accounts_first_title">Comptes</string>
+    <string name="showcase_accounts_first_text">Cliquer sur un compte en fera le compte actif pour toute l'application</string>
 
     <!-- Default Strings -->
     <string name="empty_default_description">
-        <i>No Description</i>
+        <i>Pas de description</i>
     </string>
 
     <!--Delete Dialog -->
-    <string name="deleteAccount_title">Really Delete Account?</string>
-    <string name="deleteAccount_msg">There are still entries on the account, they will be deleted, too. Choose wisely, it cannot be undone.</string>
-    <string name="deleteCategory_title">Really Delete Category?</string>
-    <string name="deleteCategory_msg">There are still entries in the category, they will be deleted, too. Choose wisely,
-        it cannot be undone.
-    </string>
-    <string name="delete_button">Delete</string>
-    <string name="cancel_button">Cancel</string>
-    <string name="donotshowagain_button">Delete and don\'t show again</string>
+    <string name="deleteAccount_title">Supprimer vraiment le compte?</string>
+    <string name="deleteAccount_msg">Il y a encore des entrées pour ce compte, elles seront aussi supprimées. Attention, cette action ne pourra être annulée.</string>
+    <string name="deleteCategory_title">Supprimer vraiment la catégorie?</string>
+    <string name="deleteCategory_msg">Il y a encore des entrées pour cette catégorie, elles seront supprimées. Attention, cette action ne pourra être annulée.</string>
+    <string name="delete_button">Supprimer</string>
+    <string name="cancel_button">Annuler</string>
+    <string name="donotshowagain_button">Supprimer et ne plus afficher</string>
 
     <!--Different Strings -->
-    <string name="selected">Selected</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="threemore">Three clicks to go</string>
-    <string name="noentries">No Entries</string>
+    <string name="selected">Sélectionné</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="threemore">Plus que 3 clics</string>
+    <string name="noentries">Aucune entrée</string>
 
     <!-- Import / Export Dialog -->
-    <string name="areyousure">Are you sure?</string>
-    <string name="backup">Backup</string>
-    <string name="backupName">Name of Backup</string>
-    <string name="selectBackup">Select Backup</string>
-    <string name="reset_DialogText">This will erase all your entries (categories and account won\'t be touched). Do you want to proceed?</string>
+    <string name="areyousure">Êtes-vous sûr?</string>
+    <string name="backup">Sauvegarde</string>
+    <string name="backupName">Nom de la sauvegarde</string>
+    <string name="selectBackup">Sélectionner la sauvegarde</string>
+    <string name="reset_DialogText">Ceci effaçera toutes vos entrées (mais pas les catégories et les comptes). Voulez-vous poursuivre?</string>
 
     <!-- Backup Strings -->
-    <string name="getFiles">Retrieve Files</string>
-    <string name="exportDatabase">Exporting database …</string>
-    <string name="exportSuccessful">Export successful</string>
-    <string name="exportFailed">Export failed</string>
-    <string name="importDatabase">Importing database …</string>
-    <string name="importSuccessful">Import successful</string>
-    <string name="importFailed">Import failed</string>
-    <string name="resetSuccessful">Reset successful</string>
-    <string name="no_backups">No backups found</string>
+    <string name="getFiles">Récupérer les fichiers</string>
+    <string name="exportDatabase">Export de la base de données en cours …</string>
+    <string name="exportSuccessful">Export réussi</string>
+    <string name="exportFailed">Export échoué</string>
+    <string name="importDatabase">Import de la base de données en cours …</string>
+    <string name="importSuccessful">Import réussi</string>
+    <string name="importFailed">Import échoué</string>
+    <string name="resetSuccessful">Réinitialisation réussie</string>
+    <string name="no_backups">Aucune sauvegarde trouvée</string>
 
     <!-- Search -->
-    <string name="search_hint">Search entries</string>
+    <string name="search_hint">Recherche d'entrées</string>
 
     <!-- Filter -->
-    <string name="filter_by_art_label">by income or expense</string>
-    <string name="filter_first_date">First date for filtering</string>
-    <string name="filter_last_date">Last date for filtering</string>
-    <string name="filter_by_category">by category</string>
+    <string name="filter_by_art_label">par revenu ou dépense</string>
+    <string name="filter_first_date">Première date pour filtrage</string>
+    <string name="filter_last_date">Dernière date pour filtrage</string>
+    <string name="filter_by_category">par catégorie</string>
 
     <!-- Statistics -->
-    <string name="statistics_empty">For statistics, you need at least one entry</string>
+    <string name="statistics_empty">Pour les statistiques, il faut au moins une entrée</string>
 
     <!-- ActionBar Spinner Arrays -->
     <string-array name="ab_spinner">
-        <item>All</item>
-        <item>Monthly</item>
-        <item>Yearly</item>
+        <item>Tous</item>
+        <item>Mensuel</item>
+        <item>Annuel</item>
     </string-array>
 
     <!-- DashClock -->
     <string name="dashclock_desc">Money Tracker DashClock Extension</string>
-    <string name="dashclock_settings_label">Money Tracker DashClock Settings</string>
+    <string name="dashclock_settings_label">Paramètres de Money Tracker DashClock </string>
 
     <!-- Drawer Strings -->
-    <string name="drawer_open">Drawer opened</string>
-    <string name="drawer_close">Drawer closed</string>
+    <string name="drawer_open">Drawer ouvert</string>
+    <string name="drawer_close">Drawer fermé</string>
 
 </resources>
